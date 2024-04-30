@@ -1,15 +1,15 @@
-public class MovibleH extends Movible{
+public class MovibleV extends Movible{
 
-    public MovibleH(float x, float y) {
+    public MovibleV(float x, float y) {
         super(x, y);
     }
 
-    public void move(float w) {
-        this.x += 5*d;
-        if(this.x>= w){
+    public void move(float h) {
+        this.y += 5*d;
+        if(this.y>= h){
             d = -1;
         }
-        else if(this.x<0){
+        else if(this.y<0){
             d = 1;
         }
     }
