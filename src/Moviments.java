@@ -28,20 +28,21 @@ public class Moviments extends PApplet {
     // Bucle (30 vegades per segon)
     public void draw() {
 
-        //background(200, 100, 100);
+        background(200, 100, 100);
 
         // Cridada als mètodes dels objectes
-        /*
+
         mh.display(this);
         mh.move(width);
+
         mv.display(this);
         mv.move(height);
+
         mc.display(this);
         mc.move(0.1f);
+
         me.display(this);
         me.move(0.05f);
-        
-         */
 
         ms.display(this);
         ms.move(0.05f);

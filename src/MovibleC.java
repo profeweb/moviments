@@ -1,3 +1,5 @@
+import processing.core.PApplet;
+
 import static java.lang.Math.cos;
 import static processing.core.PApplet.sin;
 
@@ -18,6 +20,12 @@ public class MovibleC extends Movible{
         this.x = this.xc + this.r*(float)cos(this.a);
         this.y = this.yc + this.r*sin(this.a);
         this.a += v;
+    }
+
+
+    public void display(PApplet p5){
+        p5.fill(255, 0, 0);
+        super.display(p5);
     }
 
 }

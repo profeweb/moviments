@@ -1,3 +1,4 @@
+import processing.core.PApplet;
 
 // Hereta de la classe Movible
 public class MovibleV extends Movible{
@@ -18,5 +19,10 @@ public class MovibleV extends Movible{
         else if(this.y<0){
             d = 1;
         }
+    }
+
+    public void display(PApplet p5){
+        p5.fill(255, 0, 255);
+        super.display(p5);
     }
 }
