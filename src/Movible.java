@@ -16,6 +16,10 @@ public class Movible {
     public void move(float w){
     }
 
+    public void changeDirection(){
+        this.d *= -1;
+    }
+
     // Dibuixa l'element
     public void display(PApplet p5){
         p5.circle(this.x, this.y, 50);

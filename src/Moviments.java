@@ -66,5 +66,8 @@ public class Moviments extends PApplet {
             float nh = moo.h - 10;
             moo.setH(nh);
         }
+        else if(key=='d' || key=='D'){
+            mo.changeDirection();
+        }
     }
 }
