@@ -13,6 +13,7 @@ public class MovibleR extends Movible{
     }
 
     public void move(int w, int h){
+
         x += xDir * 5;
         y += yDir * 5;
 
@@ -25,7 +26,9 @@ public class MovibleR extends Movible{
     }
 
     public void colisio(MovibleR altre){
+
         float d = PApplet.dist(this.x, this.y, altre.x, altre.y);
+
         if(d<=50){
             this.xDir*=-1;
             this.yDir*=-1;
