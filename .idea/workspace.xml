@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7193d2fb-00e6-4c88-8033-adfe726596d8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MovibleT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MovimentTweening.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MovibleTA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MovimentTweeningArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MovibleR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MovibleR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Movible.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Movible.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +48,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MovimentTweening">
+  <component name="RunManager" selected="Application.MovimentTweeningArray">
     <configuration name="MovimentTweening" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MovimentTweening" />
+      <module name="moviments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovimentTweeningArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovimentTweeningArray" />
       <module name="moviments" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovimentTweeningArray" />
         <item itemvalue="Application.MovimentTweening" />
         <item itemvalue="Application.Moviments" />
         <item itemvalue="Application.Provant" />
@@ -111,7 +119,9 @@
       <workItem from="1715242075084" duration="1319000" />
       <workItem from="1715531945999" duration="598000" />
       <workItem from="1715676412825" duration="3587000" />
-      <workItem from="1715752622849" duration="1240000" />
+      <workItem from="1715752622849" duration="2393000" />
+      <workItem from="1715762006299" duration="598000" />
+      <workItem from="1715846145658" duration="807000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1714472339190</created>
@@ -162,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1715681360357</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="initial">
+      <created>1715758649934</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715758649934</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
